@@ -1,4 +1,4 @@
-package com.ibs.task_4.runner;
+package com.ibs.runner;
 
 
 import org.junit.platform.suite.api.ConfigurationParameter;
@@ -12,7 +12,7 @@ import static io.cucumber.core.options.Constants.*;
 @IncludeEngines("cucumber")
 @ConfigurationParameters({
         @ConfigurationParameter(key = FEATURES_PROPERTY_NAME, value = "src/test/resources/features/testAddProductExist.feature"),
-        @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.ibs.task_4.steps"),
+        @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.ibs.steps"),
         @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm," +
                 " pretty")
 })

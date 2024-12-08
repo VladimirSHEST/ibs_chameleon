@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.sql.*;
 import java.util.concurrent.TimeUnit;
 
-public class TestSandBox_2 {
+public class TestSandBox {
 
     @Test
     void AddingExistingProduct() throws SQLException {
